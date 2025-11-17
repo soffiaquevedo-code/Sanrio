@@ -1,0 +1,230 @@
+.myfont {
+  font-family: "Rubik Bubbles", system-ui;
+  font-size: 44px;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 0.1px;
+  background-color: rgb(23, 91, 127);
+  z-index: 1;
+}
+
+li{position: static;
+    display: table-cell;
+    width: 1%;
+    float: none;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;}
+a,
+b,.darkmode {
+  padding: 20px 5%;
+  font-size: 25px;
+  color: white;
+}
+
+a:hover {
+  color: rgb(146, 142, 135);
+}
+
+body {
+  margin: 0;
+  background-color: rgb(161, 192, 233);
+}
+
+.Umbrella {
+  width: 79%;
+  height: auto;
+}
+
+.ContainerTopPocha {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5% 10% 0% 10%;
+  column-gap: 5%;
+  padding: 120px 0;
+}
+
+.PochaTopImage {
+  align-content: end;
+}
+
+.PochaTopImage h3 {
+  margin: 0;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+.ImageText {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.PochaSummary {
+  padding: 10px;
+  font-size: 2vw;
+  border: 2px solid black;
+}
+
+.Minoru {
+  width: 16%;
+  height: auto;
+}
+
+.ContainerAuthor {
+  margin: 6% 15% 2% 15%;
+  border: 2px solid black;
+}
+
+.AuthorText {
+  margin: -10% 2% 9% 26%;
+}
+
+.allcharacters {
+  font-family: "Rubik Bubbles", system-ui;
+  align-content: center;
+  margin: 0% 29% 0% 37%;
+  font-size: 3vw;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.characters1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px 9px 40px 129px;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+
+.characters1 img {
+  cursor: pointer;
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+  .characters1 {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10%;
+  }
+
+  .characters1 img {
+    width: 100%;
+  }
+
+  .ContainerTopPocha {
+    grid-template-columns: 1fr;
+  }
+}
+
+.characters1 img:hover {
+  background-color: rgb(164, 120, 223);
+}
+
+.option1 {
+  position: relative;
+}
+
+.option1 img {
+  object-fit: contain;
+  border: 5px solid black;
+  border-radius: 10px 10px 10px 10px;
+  transition: opacity 0.4s ease;
+}
+
+.popup-text {
+  flex: 1;
+  padding: 0 3%;
+  text-align: left;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.popup-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup-box {
+  justify-content: space-between;
+  gap: 30px;
+  width: 650px;
+  margin: 15% auto;
+  padding: 30px 40px;
+  /* display:flex; */
+  transition: transform 0.5s ease;
+  background: white;
+  border-radius: 45px;
+}
+
+.popup-overlay.acive .popup-box {
+  transform: translateY(0);
+}
+
+.popup-box img {
+  width: 220px;
+  height: auto;
+
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+body.dark
+{
+  color: white;
+  background-color: #121212;
+}
+.dark img {
+  color: white;
+  background-color: #121212;
+  filter: grayscale();
+}
+.dark .characters1 img:hover {
+  color: white;
+  background-color: #ffffff;
+}
+
+.darkmode {
+  padding: 8px;
+  cursor: pointer;
+}
+.dark .popup-text{
+  color: black;
+}
+.creatorss {
+  text-align: center;
+}
+
+#creatorss {
+  display: none;
+}
+
+#description {
+  display: flex;
+}
+
+.close {
+position: relative;
+    left: 94%;
+  padding: 5px 10px;
+  background: red;
+  border-radius: 18px;
+  color: white;
+  cursor: pointer;
+}

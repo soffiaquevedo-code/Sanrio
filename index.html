@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sanrio</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+
+
+</head>
+
+
+<nav>
+    <ul>
+        <li class="myfont"> Sanrio</li>
+        <li> <a href="Home.html"> HOME </a></li>
+        <li> <a href="History.html"> HISTORY</a></li>
+        <li> <a href="Show.html"> SHOW</a></li>
+        <li> <a href="Blog.html">BLOG</a></li>
+        <li class="darkmode" onclick="darkmode()"> Dark Mode</li>
+    </ul>
+</nav>
+
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <div class="ContainerTopPocha">
+        <div class="PochaTopImage">
+            <div class="ImageText">
+
+                <img class="Umbrella" src="img/pochacco3.jpg" alt="Pochacco"> <br>
+
+                <h3> POCHACCO </h3>
+            </div>
+        </div>
+
+        <div>
+            <p class="PochaSummary">Pochacco, is a chubby white dog character, he is known for his black floppy ears. He
+                was initially called "The Yorimichi Dog", Pochacco's name comming from the Japanese word "pocha pocha,"
+                meaning "chubby". From the start, Pochacco
+                was positioned as an active and friendly character, often participating in various sports and
+                activities, setting him apart from other characters cuteness alone.</p>
+        </div>
+
+    </div>
+
+
+
+    <div class="ContainerAuthor">
+        <div class="Author">
+
+
+            <div class="AuthorImage">
+                <img class="Minoru" src="img/minoru.jpg" alt="Minoru Onoue">
+
+                <div class="AuthorText">
+                    Minoru Onoue created Pochacco, his fisrt appereance being in February 29, 1989.
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="allcharacters">
+        <h3> More Characters</h3>
+    </div>
+
+
+
+
+    <section class="characters1">
+        <div class="option1" onclick="openPopup('kuromipopup')"  >
+            <img data-aos="fade-up" data-aos-duration="3000" src="img/kuromi3.jpg" alt="Kuromi" id="Kuromi">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('pompompurinpopup')">
+            <img src="img/2pompompurin.jpg" alt="Pompompurin" id="Pompompurin">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('hellokittypopup')">
+            <img src="img/hellokitty.jpg" alt="Hello Kitty" id="Hellokitty">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('mymelodypopup')">
+            <img src="img/mymelody5.png" alt="My Melody" id="Mymelody">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('badtz-marupopup')">
+            <img src="img/badiz-maru.png" alt="Badtz-Maru" id="Badtz Maru">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('keroppipopup')">
+            <img src="img/2keroppi.png" alt="Keroppi" id="Keroppi">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('tuxedosampopup')">
+            <img src="img/tuxedosam.jpg" alt="Tuxedosam" id="Tuxedosam">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('cinamorollpopup')">
+            <img src="img/9cinamoroll.png" alt="Cinamoroll" id="Cinamoroll">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('gudetamapopup')">
+            <img src="img/2gudetama.png" alt="Gudetama" id="Gudetama">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('chococatpopup')">
+            <img src="img/chococat.jpg" alt="Chococat" id="Chococat">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('kikipopup')">
+            <img src="img/kiki2.png" alt="Kiki" id="Kiki">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('lalapopup')">
+            <img src="img/lala.jpg" alt="Lala" id="Lala">
+            <div class="characterpopup">
+            </div>
+        </div>
+
+        <div class="option1" onclick="openPopup('hangyodonpopup')">
+            <img src="img/3gudetama.png" alt="Hangyodon" id="Hangyodon">
+            <div class="characterpopup">
+            </div>
+        </div>
+    </section>
+
+    <section class="characterpopup">
+        <div id="kuromipopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('kuromipopup')" class="close" id="closekuromi">&times;</span>
+                <img src="img/tenor copy.gif" alt="Kuromi">
+                <div class="popup-text">
+                    <h2>Kuromi</h2>
+                    <p><strong> Birthday - </strong>October 31</p>
+                    <p><strong>Gender - </strong>Female, Rabbit</p>
+                    <p><strong> Place of Birth -</strong> Mariland</p>
+                    <p><strong> Hobbies -</strong> Kuromi enjoys writing in her Kuromi notes, travelling and causing
+                        mischief from time to time. In her free time she loves biking and piloting.</p>
+                    <!--<p><strong>Created By - </strong>Tomoko Miyakawa</p>-->
+                    <!--<p><strong>Voiced By - </strong>Juniko Takeuchi</p>-->
+                    <!---<p><strong> Debut -</strong> 2005</p>-->
+                </div>
+            </div>
+        </div>
+
+        <div id="pompompurinpopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('pompompurinpopup')" class="close" id="closepompompurin">&times;</span>
+                <img src="img/2pompompurin.jpg" alt="Pompompurin">
+                <div class="popup-text">
+                    <h2>Pompompurin</h2>
+                    <p><strong> Birthday -</strong> April 16 </p>
+                    <p><strong>Gender -</strong> Male, Golden Retriever</p>
+                    <p><strong>Nationality -</strong> Japanese</p>
+                    <p><strong>Hobbies -</strong> Pompompurin likes to collect and hide shoes, and hang out with his
+                        friends, his dream is to someday
+                        become a really big dog. He is super friendly, likes running and napping in his free time.</p>
+                    <!--<p><strong>Created By - </strong>Sanrio</p>-->
+                    <!--<p><strong>Voiced By - </strong>Ryan Bartley</p>-->
+                    <!---<p><strong>Debut -</strong> 1996</p>--->
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="hellokittypopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('hellokittypopup')" class="close" id="closehellokitty">&times;</span>
+                <img src="img/hellokitty.jpg" alt="Hello Kitty">
+                <div class="popup-text">
+                    <h2>Hello Kitty</h2>
+                    <p><strong> Birthday -</strong> November 1</p>
+                    <p><strong>Gender -</strong> Female, Cat</p>
+                    <p><strong>Nationality - </strong>British, London</p>
+                    <p><strong>Pets - </strong>
+                    <ol>
+                        <li>Charmmy Kitty, Cat</li>
+                        <li>Sugar, Hamster</li>
+                        <li>Heroshee, Flying Squirrel</li>
+                    </ol>
+                    </p>
+                    <p><strong>Hobbies -</strong> Hello Kitty has a sweet kind-hearted personality, she loves making new
+                        friends and the color red! In her free
+                        time she enjoys baking, reading, travelling, and collecting anything cute. Her dream is to one
+                        day become a pianist or a poet</p>
+                    <!--<p><strong>Created By - </strong>Yuko Shimizu</p>-->
+                    <!--<p><strong>Voiced By - </strong>Megumi Hayashibara</p>-->
+                    <!--<p><strong>Debut - </strong>1974</p>-->
+                </div>
+            </div>
+        </div>
+
+        <div id="mymelodypopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('mymelodypopup')" class="close" id="closemymelody">&times;</span>
+                <img src="img/mymelody5.png" alt="My Melody">
+                <div class="popup-text">
+                    <h2>My Melody</h2>
+                    <p><strong> Birthday -</strong> January 18</p>
+                    <p><strong>Gender -</strong> Female, Rabbit</p>
+                    <p><strong> Place of Birth - </strong>The forest of Mariland</p>
+                    <p><strong>Hobbies -</strong>My Melody is very honest and sweet peron,, although a bit clumsy. In
+                        her free time she enjoys baking almosd cake, with her dream being to sleep.</p>
+                    <!--<p><strong>Created By - </strong>Sanrio</p>-->
+                    <!--<p><strong>Voiced By - </strong>Rei Sakuma</p>-->
+                    <!---<p><strong> Debut - </strong>1975</p>--->
+                </div>
+            </div>
+        </div>
+
+        <div id="badtz-marupopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('badtz-marupopup')" class="close" id="closebadtz-maru">&times;</span>
+                <img src="img/badiz-maru.png" alt="Badtz-Maru">
+                <div class="popup-text">
+                    <h2>Badtz-Maru</h2>
+                    <p><strong> Birthday -</strong> April 1</p>
+                    <p><strong>Gender - </strong>Male, Penguin</p>
+                    <p><strong>Nationality -</strong> American</p>
+                    <p><strong> Pets - </strong>Pochi, an alligator</p>
+                    <p><strong>Hobbies -</strong> Badtz-Maru loves sports and keeping himself busy all the time, if its
+                        either by being mischevious, pretending to play the violin, or even the piano.
+                        He loves taking pictures of the stars, and anything cool he finds. His dream is to become the
+                        BOSS os everything.</p>
+                    <!--<p><strong>Created By - </strong>Hisato Inoue</p>-->
+                    <!--<p><strong>Voiced By - </strong>Fujiko Takimoto</p>-->
+                    <!---<p><strong> Debut - </strong>1993</p>--->
+                </div>
+            </div>
+        </div>
+
+        <div id="keroppipopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('keroppipopup')" class="close" id="closekeroppi">&times;</span>
+                <img src="img/2keroppi.png" alt="Keroppi">
+                <div class="popup-text">
+                    <h2>Keroppi</h2>
+                    <p><strong> Birthday -</strong> July 10 </p>
+                    <p><strong>Gender -</strong> Male, Frog</p>
+                    <p><strong>Hobbies -</strong>SMTH</p>
+                    <p><strong>Nationality - </strong> Japanese</p>
+                    <p><strong>Hobbies -</strong>Keroppi is a good hearted frog, that loves doing everything, he plays
+                        basketba, swims, skates, dances, and enjoyes playing video games. Keroppi's only dream
+                        is to have an adventure, he wishes that everyday is a new and awesome adventure!</p>
+                    <!--<p><strong>Created By - </strong>Tomoe Iwata/p>-->
+                    <!--<p><strong>Voiced By - </strong>Yoshico Matsuo</p>-->
+                    <!---<p><strong> Debut - </strong>1987</p>--->
+                </div>
+            </div>
+        </div>
+
+        <div id="tuxedosampopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('tuxedosampopup')" class="close" id="closetuxedosam">&times;</span>
+                <div id="description">
+                    <img src="img/tuxedosam.jpg" alt="Keroppi">
+                    <div class="popup-text">
+                        <h2>Tuxedo Sam</h2>
+                        <p><strong> Birthday -</strong> May 12</p>
+                        <p><strong>Gender -</strong> Male, Penguin</p>
+                        <p><strong>Nationality -</strong> British, London</p>
+                        <p><strong>Hobbies -</strong>Tuxedo Sam loves keeping everything clean and organized, he likes
+                            fashipm amd eating when hes bored. He enjoys sswimming, and playing football.
+                            His dream is food, friends, and most importantly falling in love with Hello Kitty</p>
+                        <!--<p><strong>Created By - </strong>Yumiko Chiba</p>-->
+                        <!--<p><strong>Voiced By - </strong>Kasuko Sugiyama</p>-->
+                        <!---<p><strong> Debut - </strong>1979</p>--->
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cinamorollpopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('cinamorollpopup')" class="close" id="closecinamoroll">&times;</span>
+                <div id="description">
+                    <img src="img/cinnamoroll-sanrio.gif" alt="Cinamoroll">
+                    <div class="popup-text">
+                        <h2>Cinnamoroll</h2>
+                        <p><strong> Birthday -</strong> March 6</p>
+                        <p><strong>Gender -</strong> Male, Dog</p>
+                        <p><strong>Hobbies -</strong> Cinnamoroll is a cute, shy and funny dog, he loves eating, flying with his long ears, dressing up and exploring new things. 
+                            In his free time he likes hanging out with his freinds, and doing arts and crafts.</p>
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/Miyuki.jpg" alt="Miyuki Okumura">
+                    <div class="popup-text">
+                        <h2>Created By -  Miyuki Okumura</h2>
+                        <p> Miyuki was insparied to make Cinnamoroll because one day when she was having coffee she noticed a fluffy cloud high up in the sky that looked like a cinnamon roll.
+                            This gave her the idea of creating Cinnamoroll, a white puppy with a cinnamon roll-shaped tail.
+                        </p>
+                        <p><strong>Voiced By - </strong>Taeko Kawata </p>
+                        <p><strong> Debut - </strong>2001</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="gudetamapopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('gudetamapopup')" class="close" id="closegudetama">&times;</span>
+                <div id="description">
+                    <img src="img/tenor.gif" alt="Gudetama">
+                    <div class="popup-text">
+                        <h2>Gudetama</h2>
+                        <p><strong>Birthday -</strong> Every day!</p>
+                        <p><strong>Place of Birth -</strong> Inside a fridge</p>
+                        <p><strong>Gender -</strong> Genderless, Egg</p>
+                        <p><strong>Hobbies -</strong> Gudetama is a lazy little egg that can't be bothered with
+                            anything. He
+                            loves sleeping, watching TV and playing video games, however one thing he strongly dislikes
+                            is having to be active.</p>
+                        <!--<p><strong>Created By - </strong>Nagashima Emi</p>-->
+                        <!--<p><strong>Voiced By - </strong>Shunsuke Takeuchi</p>-->
+                        <!---<p><strong> Debut - </strong>2013</p>--->
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                     </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/AMY.jpg" alt="Nagashima Emi">
+                    <div class="popup-text">
+                        <h2>Created By -  Nagashima Emi</h2>
+                        <p>After a long day at work, when Emi was preparing tamago kake gohan (a Japanese dish of raw egg over rice) she was inspired to create Gudetama
+                            by the droopy, lazy appearance of the egg yolk on her dish. Emi found that the appearance of the egg yolk was relatable to fatigue and weariness of young people. </p>
+                        <p><strong>Voiced By - </strong>Shunsuke Takeuchi</p>
+                        <p><strong> Debut - </strong>2013</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="chococatpopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('chococatpopup')" class="close" id="closechococat">&times;</span>
+                <div id="description">
+                    <img src="img/chocho.gif" alt="Chococat">
+                    <div class="popup-text">
+                        <h2>Chococat</h2>
+                        <p><strong>Birthday -</strong> May 10</p>
+                        <p><strong>Nationality -</strong> Japanese</p>
+                        <p><strong>Gender -</strong> Male, Cat</p>
+                        <p><strong>Hobbies -</strong> Chococat is a sweet cat, he loves stargazing and exploring while using his whiskers to pick up any new information. He
+                            loves eating anything sweet like candy, but specially likes chocoballs</p>
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/unknown.jpg" alt="Unknown">
+                    <div class="popup-text">
+                        <h2>Created By -  Ikuko Shimizu</h2>
+                        <p>Chococat was designed to be a cute playful black cat with a chocolate colored nose. With one of his special feeatures being his whiskers,
+                            since they are "super sensitive anennae" that help him know the latest news!</p>
+                        <p><strong>Voiced By - </strong>Michelle Marie</p>
+                        <p><strong> Debut - </strong>1996</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="kikipopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('kikipopup')" class="close" id="closekiki">&times;</span>
+                <div id="description">
+                    <img src="img/giphy-2.gif" alt="Kiki">
+                    <div class="popup-text">
+                        <h2>Kiki</h2>
+                        <p><strong>Birthday -</strong> December 24</p>
+                        <p><strong>Place of Birth -</strong> Omoiyari Star in the Dream Star Cloud</p>
+                        <p><strong>Gender -</strong> Male, Star</p>
+                        <p><strong>Hobbies -</strong> Kiki is a curious mythical creature, he loves star-fishing, and
+                            inventing new things. His twin sister is Lala</p>
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/unknown.jpg" alt="Unknown">
+                    <div class="popup-text">
+                        <h2>Created By -  Yoko Matsumoto</h2>
+                        <p> Kiki was first introduced for a Christmas promotion. Matsumoto originally drew Kiki in a simple winter clothing, 
+                            but later added the star to give them more of a Christmas vibe. </p>
+                        <p><strong>Voiced By - </strong>Keiko Toda</p>
+                        <p><strong> Debut - </strong>1975</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="lalapopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('lalapopup')" class="close" id="closelala">&times;</span>
+                <div id="description">
+                    <img src="img/giphy-1.gif" alt="Lala">
+                    <div class="popup-text">
+                        <h2>Lala</h2>
+                        <p><strong>Birthday -</strong> December 24</p>
+                        <p><strong>Place of Birth -</strong> Omoiyari Star in the Dream Star Cloud</p>
+                        <p><strong>Gender -</strong> Female, Star</p>
+                        <p><strong>Hobbies -</strong> Lala is a shy mythical creature, she loves drawing, writing poems, and cooking. Her twin brother is Kiki.</p>
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/unknown.jpg" alt="Unknown">
+                    <div class="popup-text">
+                        <h2>Created By -  Yoko Matsumoto</h2>
+                        <p>Lala was first introduced for a Christmas promotion. Matsumoto originally drew Lalain a simple winter clothing, 
+                            but later added the star to give them more of a Christmas vibe. </p>
+                        <p><strong>Voiced By - </strong>Chinami Nishimura</p>
+                        <p><strong> Debut - </strong>1975</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   <div id="hangyodonpopup" class="popup-overlay">
+            <div class="popup-box">
+                <span onclick="closePopup('hangyodonpopup')" class="close" id="closehangyodon">&times;</span>
+                <div id="description">
+                    <img src="img/giphy.gif" alt="Hangyodon">
+                    <div class="popup-text">
+                        <h2>Hangyodon</h2>
+                        <p><strong>Birthday -</strong> March 14</p>
+                        <p><strong>Nationality -</strong> Chinese</p>
+                        <p><strong>Gender -</strong> Male, Fish</p>
+                        <p><strong>Hobbies -</strong> Hangyodon is a very lonely fish, he loves making jokes and eating. He likes Noodles, Shrimp Crackers, Hot Pots
+                             and Chilled Chinese food. In his free time he likes goihng to the hot springs to chill.</p>
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/changyodon.jpg" alt="Hisato Inoue">
+                    <div class="popup-text">
+                        <h2>Created By -  Hisato Inoue</h2>
+                        <p>Inoue based the Hangyodon's distinct look, with his large eyes and full lips, on his own features to make him easily recognizable. 
+                            Hangyodon was designed to be playful and a little bit quirky, with a personality that often tries to be a hero but fails, 
+                            making Hangdyon amusing and relatable. </p>
+                        <p><strong>Voiced By - </strong>Ryūsei Nakao</p>
+                        <p><strong> Debut - </strong>1985</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <a href="Website.html" style="color: rgb(0, 0, 0);" ;> Back</a>
+</body>
+
+</html>
