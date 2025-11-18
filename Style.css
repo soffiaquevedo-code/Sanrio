@@ -280,6 +280,14 @@ background-color: #73bfd8;
   background-color: #3d6d6f;
 }
 
+.pekkle img:hover{
+  background-color: #7cbbe1;
+}
+
+.aggretsuko img:hover{
+  background-color: #e1ba72;
+}
+
 
 .videos{
 display: grid;
