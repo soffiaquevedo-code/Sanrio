@@ -279,3 +279,18 @@ background-color: #73bfd8;
 .hang img:hover{
   background-color: #3d6d6f;
 }
+
+
+.videos{
+display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+
+.videos li{
+  width: 100%;
+}
+
+.videos p{
+  text-align: center;
+  font-size: larger;
+}
