@@ -16,7 +16,7 @@
 <nav>
     <ul>
         <li class="myfont"> Sanrio</li>
-        <li> <a href="Home.html"> HOME </a></li>
+        <li> <a href="index.html"> HOME </a></li>
         <li> <a href="History.html"> HISTORY</a></li>
         <li> <a href="Show.html"> SHOW</a></li>
         <li> <a href="Blog.html">BLOG</a></li>
@@ -33,7 +33,7 @@
         <div class="PochaTopImage">
             <div class="ImageText">
 
-                <img class="Umbrella" src="img/pochacco3.jpg" alt="Pochacco"> <br>
+                <img class="Umbrella" src="img/poch.gif" alt="Pochacco"> <br>
 
                 <h3> POCHACCO</h3>
             </div>
@@ -58,7 +58,8 @@
                 <img class="Minoru" src="img/minoru.jpg" alt="Minoru Onoue">
 
                 <div class="AuthorText">
-                    Minoru Onoue created Pochacco, his fisrt appereance being in February 29, 1989.
+                    Minoru Onoue created Pochacco, as a successor to Snoopy after Sanrio lost the rights to the Peanuts character. Minoru design was inspired by Snoopy, 
+                    with a playful, and sporty personality that was made to become a popular and relatable characterhis, with his fisrt appereance being in February 29, 1989.
                 </div>
 
 
@@ -76,79 +77,79 @@
 
 
     <section class="characters1">
-        <div class="option1" onclick="openPopup('kuromipopup')"  >
+        <div class="option1 kuromi" onclick="openPopup('kuromipopup')">
             <img src="img/kuromi3.jpg" alt="Kuromi" id="Kuromi">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('pompompurinpopup')">
+        <div class="option1 pompom" onclick="openPopup('pompompurinpopup')">
             <img src="img/2pompompurin.jpg" alt="Pompompurin" id="Pompompurin">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('hellokittypopup')">
+        <div class="option1 hello" onclick="openPopup('hellokittypopup')">
             <img src="img/hellokitty.jpg" alt="Hello Kitty" id="Hellokitty">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('mymelodypopup')">
+        <div class="option1 melody" onclick="openPopup('mymelodypopup')">
             <img src="img/mymelody5.png" alt="My Melody" id="Mymelody">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('badtz-marupopup')">
+        <div class="option1 maru" onclick="openPopup('badtz-marupopup')">
             <img src="img/badiz-maru.png" alt="Badtz-Maru" id="Badtz Maru">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('keroppipopup')">
+        <div class="option1 keroppi" onclick="openPopup('keroppipopup')">
             <img src="img/2keroppi.png" alt="Keroppi" id="Keroppi">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('tuxedosampopup')">
+        <div class="option1 tuxedo" onclick="openPopup('tuxedosampopup')">
             <img src="img/tuxedosam.jpg" alt="Tuxedosam" id="Tuxedosam">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('cinamorollpopup')">
+        <div class="option1 roll" onclick="openPopup('cinamorollpopup')">
             <img src="img/9cinamoroll.png" alt="Cinamoroll" id="Cinamoroll">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('gudetamapopup')">
+        <div class="option1 gude" onclick="openPopup('gudetamapopup')">
             <img src="img/2gudetama.png" alt="Gudetama" id="Gudetama">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('chococatpopup')">
+        <div class="option1 choco" onclick="openPopup('chococatpopup')">
             <img src="img/chococat.jpg" alt="Chococat" id="Chococat">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('kikipopup')">
+        <div class="option1 kiki" onclick="openPopup('kikipopup')">
             <img src="img/kiki2.png" alt="Kiki" id="Kiki">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('lalapopup')">
+        <div class="option1 lala" onclick="openPopup('lalapopup')">
             <img src="img/lala.jpg" alt="Lala" id="Lala">
             <div class="characterpopup">
             </div>
         </div>
 
-        <div class="option1" onclick="openPopup('hangyodonpopup')">
+        <div class="option1 hang" onclick="openPopup('hangyodonpopup')">
             <img src="img/3gudetama.png" alt="Hangyodon" id="Hangyodon">
             <div class="characterpopup">
             </div>
@@ -159,126 +160,201 @@
         <div id="kuromipopup" class="popup-overlay">
             <div class="popup-box">
                 <span onclick="closePopup('kuromipopup')" class="close" id="closekuromi">&times;</span>
-                <img src="img/tenor copy.gif" alt="Kuromi">
-                <div class="popup-text">
-                    <h2>Kuromi</h2>
-                    <p><strong> Birthday - </strong>October 31</p>
-                    <p><strong>Gender - </strong>Female, Rabbit</p>
-                    <p><strong> Place of Birth -</strong> Mariland</p>
-                    <p><strong> Hobbies -</strong> Kuromi enjoys writing in her Kuromi notes, travelling and causing
+                <div id="description">
+                    <img src="img/tenor copy.gif" alt="Kuromi">
+                    <div class="popup-text">
+                        <h2>Kuromi</h2>
+                        <p><strong> Birthday - </strong>October 31</p>
+                        <p><strong>Gender - </strong>Female, Rabbit</p>
+                        <p><strong> Place of Birth -</strong> Mariland</p>
+                        <p><strong> Hobbies -</strong> Kuromi enjoys writing in her Kuromi notes, travelling and causing
                         mischief from time to time. In her free time she loves biking and piloting.</p>
-                    <!--<p><strong>Created By - </strong>Tomoko Miyakawa</p>-->
-                    <!--<p><strong>Voiced By - </strong>Juniko Takeuchi</p>-->
-                    <!---<p><strong> Debut -</strong> 2005</p>-->
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/unknown.jpg" alt="Tomoko Miyakawa">
+                    <div class="popup-text">
+                        <h2>Created By -  Tomoko Miyakawa</h2>
+                        <p> Kuromi was made as a villian to create conflict and a central rivalry with My Melody. Her personality was made to be mishevious, rebellious, and edgy contrasting with My Melody's
+                             kind soul. Despite her initial villanious role, her unique and different edgy style and charming personality helped her quickly gain popularity, leading Kuromi to becomes one of 
+                             the most loved charcters in Sanrio. 
+                        </p>
+                        <p><strong>Voiced By - </strong>Juniko Takeuchi</p>
+                        <p><strong> Debut - </strong>2005</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
                 </div>
             </div>
         </div>
+                   
+         
 
         <div id="pompompurinpopup" class="popup-overlay">
             <div class="popup-box">
                 <span onclick="closePopup('pompompurinpopup')" class="close" id="closepompompurin">&times;</span>
-                <img src="img/2pompompurin.jpg" alt="Pompompurin">
-                <div class="popup-text">
-                    <h2>Pompompurin</h2>
-                    <p><strong> Birthday -</strong> April 16 </p>
-                    <p><strong>Gender -</strong> Male, Golden Retriever</p>
-                    <p><strong>Nationality -</strong> Japanese</p>
-                    <p><strong>Hobbies -</strong> Pompompurin likes to collect and hide shoes, and hang out with his
+                <div id="description">
+                    <img src="img/pom.gif" alt="Pompompurin">
+                    <div class="popup-text">
+                        <h2>Pompompurin</h2>
+                        <p><strong> Birthday -</strong> April 16 </p>
+                        <p><strong>Gender -</strong> Male, Golden Retriever</p>
+                        <p><strong>Nationality -</strong> Japanese</p>
+                        <p><strong>Hobbies -</strong> Pompompurin likes to collect and hide shoes, and hang out with his
                         friends, his dream is to someday
                         become a really big dog. He is super friendly, likes running and napping in his free time.</p>
-                    <!--<p><strong>Created By - </strong>Sanrio</p>-->
-                    <!--<p><strong>Voiced By - </strong>Ryan Bartley</p>-->
-                    <!---<p><strong>Debut -</strong> 1996</p>--->
+                          <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/pom.jpg" alt="Akiko Jii">
+                    <div class="popup-text">
+                        <h2>Created By -  Akiko Jii</h2>
+                        <p> Pompompurin was created because of a design contest held in 1996 to create a new dog character. Akiko designed, a friendly 
+                            golden retriever boy with a brown beret that resembles a caramel-topped pudding cup. Leading her to winning the competition because it was 
+                            the most popular among the submissions. The name "Pompompurin" was inspired by his love for pudding, which is called "purin" in Japanese.
+                        </p>
+                        <p><strong>Voiced By - </strong>Akiko Jii</p>
+                        <p><strong> Debut - </strong>19996</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
+                   
+       
 
         <div id="hellokittypopup" class="popup-overlay">
             <div class="popup-box">
                 <span onclick="closePopup('hellokittypopup')" class="close" id="closehellokitty">&times;</span>
-                <img src="img/hellokitty.jpg" alt="Hello Kitty">
-                <div class="popup-text">
-                    <h2>Hello Kitty</h2>
-                    <p><strong> Birthday -</strong> November 1</p>
-                    <p><strong>Gender -</strong> Female, Cat</p>
-                    <p><strong>Nationality - </strong>British, London</p>
-                    <p><strong>Pets - </strong>
-                    <ol>
-                        <li>Charmmy Kitty, Cat</li>
-                        <li>Sugar, Hamster</li>
-                        <li>Heroshee, Flying Squirrel</li>
-                    </ol>
-                    </p>
-                    <p><strong>Hobbies -</strong> Hello Kitty has a sweet kind-hearted personality, she loves making new
+                 <div id="description">
+                    <img src="img/hello2.gif" alt="Hello Kitty">
+                    <div class="popup-text">
+                        <h2>Hello Kitty</h2>
+                        <p><strong> Birthday -</strong> November 1</p>
+                        <p><strong>Gender -</strong> Female, Cat</p>
+                        <p><strong>Nationality - </strong>British, London</p>
+                        <p><strong>Pets - </strong>  Charmmy Kitty - Cat Sugar, Sugar - Hamster, Heroshee - Flying Squirrel</p>
+                        <p><strong>Hobbies -</strong> Hello Kitty has a sweet kind-hearted personality, she loves making new
                         friends and the color red! In her free
                         time she enjoys baking, reading, travelling, and collecting anything cute. Her dream is to one
                         day become a pianist or a poet</p>
-                    <!--<p><strong>Created By - </strong>Yuko Shimizu</p>-->
-                    <!--<p><strong>Voiced By - </strong>Megumi Hayashibara</p>-->
-                    <!--<p><strong>Debut - </strong>1974</p>-->
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/Yuk.jpg" alt="Yuko Shimizu">
+                    <div class="popup-text">
+                        <h2>Created By -  Yuko Shimizu</h2>
+                        <p> Shimizu was inspired to make a simple mouthless, round-face character, so that it would allow people to project their own emotions onto the character. Not only that,
+                             but she was also inspire to design Hello Kitty because of a white bobtail cat. She also brought into account that. most products that are decorated or labeled
+                             as cute sell better. 
+                        </p>
+                        <p><strong>Voiced By - </strong>Megumi Hayashibara</p>
+                        <p><strong> Debut - </strong>1974</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
                 </div>
             </div>
         </div>
+          
 
         <div id="mymelodypopup" class="popup-overlay">
             <div class="popup-box">
                 <span onclick="closePopup('mymelodypopup')" class="close" id="closemymelody">&times;</span>
-                <img src="img/mymelody5.png" alt="My Melody">
-                <div class="popup-text">
-                    <h2>My Melody</h2>
-                    <p><strong> Birthday -</strong> January 18</p>
-                    <p><strong>Gender -</strong> Female, Rabbit</p>
-                    <p><strong> Place of Birth - </strong>The forest of Mariland</p>
-                    <p><strong>Hobbies -</strong>My Melody is very honest and sweet peron,, although a bit clumsy. In
+                <div id="description">
+                    <img src="img/melo.gif" alt="My Melody">
+                    <div class="popup-text">
+                        <h2>My Melody</h2>
+                        <p><strong> Birthday -</strong> January 18</p>
+                        <p><strong>Gender -</strong> Female, Rabbit</p>
+                        <p><strong> Place of Birth - </strong>The forest of Mariland</p>
+                        <p><strong>Hobbies -</strong> My Melody is very honest and sweet peron,, although a bit clumsy. In
                         her free time she enjoys baking almosd cake, with her dream being to sleep.</p>
-                    <!--<p><strong>Created By - </strong>Sanrio</p>-->
-                    <!--<p><strong>Voiced By - </strong>Rei Sakuma</p>-->
-                    <!---<p><strong> Debut - </strong>1975</p>--->
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/yasu.jpg" alt="Yasuko Matsumoto">
+                    <div class="popup-text">
+                        <h2>Created By -  Sanrio</h2>
+                        <p> My Melody was creacted for a Christmas promotion, she was based on the Little Red Riding Hood farytale
+                            She was made to be a character that is honest, with a good-heart, and hav a cheerful and optimistic look.
+                        </p>
+                        <p><strong>Voiced By - </strong>Rei Sakuma</p>
+                        <p><strong> Debut - </strong>1975</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
                 </div>
             </div>
         </div>
+                  
+    
 
         <div id="badtz-marupopup" class="popup-overlay">
             <div class="popup-box">
                 <span onclick="closePopup('badtz-marupopup')" class="close" id="closebadtz-maru">&times;</span>
-                <img src="img/badiz-maru.png" alt="Badtz-Maru">
-                <div class="popup-text">
-                    <h2>Badtz-Maru</h2>
-                    <p><strong> Birthday -</strong> April 1</p>
-                    <p><strong>Gender - </strong>Male, Penguin</p>
-                    <p><strong>Nationality -</strong> American</p>
-                    <p><strong> Pets - </strong>Pochi, an alligator</p>
-                    <p><strong>Hobbies -</strong> Badtz-Maru loves sports and keeping himself busy all the time, if its
+                <div id="description">
+                    <img src="img/bad.gif" alt="Badtz-Maru">
+                    <div class="popup-text">
+                        <h2>Badtz-Maru</h2>
+                        <p><strong> Birthday -</strong> April 1</p>
+                        <p><strong>Gender - </strong>Male, Penguin</p>
+                        <p><strong>Nationality -</strong> American</p>
+                        <p><strong> Pets - </strong>Pochi, an alligator</p>
+                        <p><strong>Hobbies -</strong> Badtz-Maru loves sports and keeping himself busy all the time, if its
                         either by being mischevious, pretending to play the violin, or even the piano.
                         He loves taking pictures of the stars, and anything cool he finds. His dream is to become the
                         BOSS os everything.</p>
-                    <!--<p><strong>Created By - </strong>Hisato Inoue</p>-->
-                    <!--<p><strong>Voiced By - </strong>Fujiko Takimoto</p>-->
-                    <!---<p><strong> Debut - </strong>1993</p>--->
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+                <div id="creatorss">
+                    <img src="img/hisa.png" alt="Hisato Inoue">
+                    <div class="popup-text">
+                        <h2>Created By -  Hisato Inoue</h2>
+                        <p> Hisato was inspiredto make Badtz-Maru to be able to offer a more rebellious and cheeky alternative, other than most of Sanrio's typical sweet and innocent characters. 
+                            Badtz-Maru spiky hair, mischievous smirk, and attitude appeal to a wider audience, including both boys and girls.
+                        </p>
+                        <p><strong>Voiced By - </strong>Fujiko Takimoto</p>
+                        <p><strong> Debut - </strong>1993</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
                 </div>
             </div>
         </div>
 
+
         <div id="keroppipopup" class="popup-overlay">
             <div class="popup-box">
-                <span onclick="closePopup('keroppipopup')" class="close" id="closekeroppi">&times;</span>
-                <img src="img/2keroppi.png" alt="Keroppi">
-                <div class="popup-text">
-                    <h2>Keroppi</h2>
-                    <p><strong> Birthday -</strong> July 10 </p>
-                    <p><strong>Gender -</strong> Male, Frog</p>
-                    <p><strong>Hobbies -</strong>SMTH</p>
-                    <p><strong>Nationality - </strong> Japanese</p>
-                    <p><strong>Hobbies -</strong>Keroppi is a good hearted frog, that loves doing everything, he plays
-                        basketba, swims, skates, dances, and enjoyes playing video games. Keroppi's only dream
-                        is to have an adventure, he wishes that everyday is a new and awesome adventure!</p>
-                    <!--<p><strong>Created By - </strong>Tomoe Iwata/p>-->
-                    <!--<p><strong>Voiced By - </strong>Yoshico Matsuo</p>-->
-                    <!---<p><strong> Debut - </strong>1987</p>--->
+              <span onclick="closePopup('keroppipopup')" class="close" id="closekeroppi">&times;</span>
+                <div id="description">
+                    <img src="img/kero.gif" alt="Keroppi">
+                    <div class="popup-text">
+                        <h2>Keroppi</h2>
+                        <p><strong> Birthday -</strong> July 10 </p>
+                        <p><strong>Gender -</strong> Male, Frog</p>
+                        <p><strong>Nationality - </strong> Japanese</p>
+                        <p><strong>Hobbies -</strong>Keroppi is a good hearted frog, that loves doing everything, he plays
+                            basketba, swims, skates, dances, and enjoyes playing video games. Keroppi's only dream
+                            is to have an adventure, he wishes that everyday is a new and awesome adventure!</p>
+                        <p class="creatorss"> <button onclick="creatorss()"><strong>Creators</strong></button></p>
+                    </div>
+                </div>
+               <div id="creatorss">
+                    <img src="img/unknown.jpg " alt="Tomoe Iwata">
+                    <div class="popup-text">
+                        <h2>Created By -  Tomoe Iwata</h2>
+                        <p> Keroppi was created as part of a contest to design a new frog character for the rainy season. The goal of this contest was to create a cheerful 
+                            character to brighten the often gloomy months in Japan.</p>
+                        <p><strong>Voiced By - </strong>Kasuko Sugiyama</p>
+                        <p><strong> Debut - </strong>1987</p>
+                        <p class="creatorss"> <button onclick="back()" class="creatorss"><strong>Back</strong></button>
+                    </div>
                 </div>
             </div>
         </div>
+
 
         <div id="tuxedosampopup" class="popup-overlay">
             <div class="popup-box">

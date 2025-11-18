@@ -7,7 +7,7 @@
 }
 
 nav {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   padding: 0.1px;
   background-color: rgb(23, 91, 127);
@@ -45,7 +45,7 @@ body {
 .ContainerTopPocha {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
-  margin: 5% 10% 0% 10%;
+  margin: 5% 10% -4% 10%;
   column-gap: 5%;
   padding: 120px 0;
 }
@@ -72,18 +72,21 @@ body {
 }
 
 .Minoru {
-  width: 16%;
+  width: 160px;
   height: auto;
 }
 
 .ContainerAuthor {
-  margin: 6% 15% 2% 15%;
+  margin: 0% 15% 2% 15%;
   border: 2px solid black;
 }
 
-.AuthorText {
-  margin: -10% 2% 9% 26%;
+.AuthorImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .allcharacters {
   font-family: "Rubik Bubbles", system-ui;
@@ -122,10 +125,6 @@ body {
   .ContainerTopPocha {
     grid-template-columns: 1fr;
   }
-}
-
-.characters1 img:hover {
-  background-color: rgb(164, 120, 223);
 }
 
 .option1 {
@@ -227,4 +226,56 @@ position: relative;
   border-radius: 18px;
   color: white;
   cursor: pointer;
+}
+
+.kuromi img:hover {
+  background-color: rgb(164, 120, 223);
+}
+
+.pompom img:hover{
+background-color:#e1c37c;
+}
+
+.hello img:hover{
+  background-color:#e24a4a;
+}
+
+.melody img:hover{
+  background-color: rgb(242, 149, 176);
+}
+
+.maru img:hover{
+  background-color: #4f535a;
+}
+
+.keroppi img:hover{
+  background-color: rgb(110, 175, 98);
+}
+
+.tuxedo img:hover{
+  background-color: rgb(99, 118, 243);
+}
+
+.roll img:hover{
+background-color: #73bfd8;
+}
+
+.gude img:hover{
+  background-color: #eacc6f;
+}
+
+.choco img:hover{
+  background-color: rgb(145, 104, 73);
+}
+
+.kiki img:hover{
+  background-color: rgb(98, 167, 236);
+}
+
+.lala img:hover{
+  background-color: rgb(197, 120, 133);
+}
+
+.hang img:hover{
+  background-color: #3d6d6f;
 }
