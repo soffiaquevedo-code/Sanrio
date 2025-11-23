@@ -72,10 +72,10 @@ function creatorss() {
   });
 }
 
- $('#videoCarousel').carousel({
-    interval: false,
-    pause: true,
-    wrap: true
-  });
+//  $('#videoCarousel').carousel({
+//     interval: false,
+//     pause: true,
+//     wrap: true
+//   });
 
 

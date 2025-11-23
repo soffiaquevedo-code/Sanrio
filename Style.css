@@ -453,46 +453,6 @@ iframe {
   text-align: center;
 }
 
-/* Example colors */
-.slide:nth-child(1) {
-  background: #ff6b6b;
-}
-
-.slide:nth-child(2) {
-  background: #6b8cff;
-}
-
-.slide:nth-child(3) {
-  background: #6bff92;
-}
-
-.slide:nth-child(4) {
-  background: #ffda6b;
-}
-
-.slide:nth-child(5) {
-  background: #ff6bff;
-}
-
-.slide:nth-child(6) {
-  background: #6bfff0;
-}
-
-.slide:nth-child(7) {
-  background: #ff8c6b;
-}
-
-.slide:nth-child(8) {
-  background: #6b6bff;
-}
-
-.slide:nth-child(9) {
-  background: #92ff6b;
-}
-
-.slide:nth-child(10) {
-  background: #ff6b92;
-}
 
 /* Dots */
 .dots {
@@ -514,7 +474,7 @@ iframe {
 }
 
 /* Transform slides based on which radio is checked */
-.carousel input:nth-of-type(1):checked~.slides {
+.carousel input:nth-of-type(1):checked~.slidest {
   transform: translateX(0vw);
 }
 
