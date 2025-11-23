@@ -21,29 +21,31 @@ nav {
   background: rgb(23, 91, 127);
   z-index: 1000;
 
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 
 }
+
 nav ul {
   z-index: 1;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-toggle {
-    display: none;
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
-   
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+
 }
+
 /* Sticky navbar when scrolling */
 .sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 header {
@@ -73,8 +75,7 @@ main {
   padding: 2% 0;
 }
 
-.show main
-{
+.show main {
   padding: 0;
 }
 
@@ -134,17 +135,17 @@ body {
 .ImageText {
   text-align: center;
   border: 2px solid black;
-  
+
 }
 
 .PochaSummary {
   padding: 10px;
   font-size: 2vw;
   border: 2px solid black;
-      display: flex;
-    justify-content: center;
-    align-items: center;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .Minoru {
@@ -418,10 +419,13 @@ body.dark,
 iframe {
   width: 90%;
   height: 400px;
-  display: block;       /* allows margin auto to work */
-    margin: 0 auto;       /* center horizontally */
-    border: 1px solid #ccc; /* optional border */
-    border-radius: 8px; 
+  display: block;
+  /* allows margin auto to work */
+  margin: 0 auto;
+  /* center horizontally */
+  border: 1px solid #ccc;
+  /* optional border */
+  border-radius: 8px;
 }
 
 
@@ -433,7 +437,7 @@ iframe {
 }
 
 .slide {
-width: 100vw;
+  width: 100vw;
   /* each slide = full viewport width */
   height: 80vh;
   flex-shrink: 0;
@@ -822,6 +826,7 @@ width: 100vw;
   column-gap: 5%;
   padding: 0 0 120px 0;
 }
+
 .containerme div {
   border: 2px solid black;
   text-align: center;
@@ -838,16 +843,17 @@ width: 100vw;
   grid-row-gap: 60px;
 }
 
-.myfave img
-{
+.myfave img {
   width: 100%;
-      height: 280px;
+  height: 280px;
 }
+
 .mesummary {
   padding: 8px;
   font-size: 1.9vw;
   /* border: 2px solid black; */
 }
+
 /* -------------------------------------------------- Blog line page -------------------------------------------------- */
 
 
@@ -867,79 +873,90 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     padding: 10%;
   }
-p 
-{
-  font-size: 12px !important;
-}
+
+  p {
+    font-size: 12px !important;
+  }
+
   .characters1 img {
     width: 100%;
   }
-.containerme, .AuthorImage, #description{
-  display: block;
-}
+
+  .containerme,
+  .AuthorImage,
+  #description {
+    display: block;
+  }
+
   .ContainerTopPocha {
     grid-template-columns: 1fr;
   }
+
   .myfave {
 
-  grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 
-}
-.myfave img
-{
-  width: auto;
-      height: auto;
-}
-.container_center
-{
-  left: 0;
-}
-.Minoru, .popup-box
-{
-  width: 100%;
-  padding: 0;
-}
-.close{
-      left: 88%;
-}
-/* Hamburger menu - hidden on desktop */
-.menu-toggle {
+  }
+
+  .myfave img {
+    width: auto;
+    height: auto;
+  }
+
+  .container_center {
+    left: 0;
+  }
+
+  .Minoru,
+  .popup-box {
+    width: 100%;
+    padding: 0;
+  }
+
+  .close {
+    left: 88%;
+  }
+
+  /* Hamburger menu - hidden on desktop */
+  .menu-toggle {
     display: none;
     font-size: 2rem;
     color: white;
     cursor: pointer;
-}
+  }
 
-/* MOBILE STYLES */
-@media screen and (max-width: 768px) {
-    nav ul {
-        position: absolute;
-        top: 60px;          /* below navbar */
-        left: 0;
-        width: 100%;
-        flex-direction: column;
-        background: rgb(23, 91, 127);
-        display: none;       /* hidden by default */
-    }
+  /* MOBILE STYLES */
 
-    nav ul li {
-        text-align: center;
-width: 100%;
-        border-bottom: 1px solid rgba(255,255,255,0.2);
-    }
+  nav ul {
+    position: absolute;
+    top: 60px;
+    /* below navbar */
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: rgb(23, 91, 127);
+    display: none;
+    /* hidden by default */
+  }
 
-    .menu-toggle {
-        display: block;     /* show hamburger */
-    }
+  nav ul li {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
 
-    nav ul.active {
-        display: flex;      /* show menu when active */
-    }
-}
+  .menu-toggle {
+    display: block;
+    /* show hamburger */
+  }
+
+  nav ul.active {
+    display: flex;
+    /* show menu when active */
+  }
+
 
 }
 
 
 /* -------------------------------------------------- responsive page -------------------------------------------------- */
-
-
