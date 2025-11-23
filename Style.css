@@ -822,7 +822,7 @@ iframe {
 .containerme {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0% 10% -4% 10%;
+  margin: 0% 10% ;
   column-gap: 5%;
   padding: 0 0 120px 0;
 }
@@ -841,6 +841,7 @@ iframe {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 103px;
   grid-row-gap: 60px;
+   margin: 0% 10% ;
 }
 
 .myfave img {
@@ -894,7 +895,7 @@ footer {
   }
 
   .myfave img {
-    width: auto;
+    width: 90%;
     height: auto;
   }
 
