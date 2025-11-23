@@ -1,69 +1,163 @@
-<head>
-    <title>Sanrio</title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html>
 
-    <script src="script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Momo+Trust+Display&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
 </head>
 
 
- <nav>
-        <ul class="myfont2">
-            <li class="myfont"> Sanrio</li>
-            <li> <a href="index.html"> HOME </a></li>
-            <li> <a href="History.html"> HISTORY</a></li>
-            <li> <a href="Show.html"> SHOW</a></li>
-            <li> <a href="Blog.html">BLOG</a></li>
-            <li class="darkmode" onclick="darkmode()"> Dark Mode</li>
+
+<body class="history1">
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>AOS.init();</script>
+    <!-- my own scripts -->
+    <script src="script.js" defer></script>
+
+
+  <nav>
+    <div class="nav-container">
+        <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+        <ul class="myfont2" id="nav-list">
+            <li> <div class="logo myfont">Sanrio</div></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="History.html">HISTORY</a></li>
+            <li><a href="Show.html">SHOW</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li class="darkmode" onclick="darkmode()">Dark Mode</li>
         </ul>
-    </nav>
+    </div>
+</nav>
 
 
+    <header class="subpages">
+        <h1>HISTORY OF SANRIO</h1>
+     </header>
 
 
-<body>
-<p>
-    1960-1970 - Yamanashi Silk Center Co. was established in Tokyo with the aim of establishing a social communication buisness. 
-                Launched their first gift product "Strawberry". then published the poetry collection "Loving Songs". Afterwards 
-                 they established the Sanrio Greeting Co.
-
-</p>
-
-<p>
-    1970-1980 - First store was opened in Shinjuku, Tokyo. Then 2 years later the name changed to Sanrio Company. The first characters Hello Kity, Patty and Jimmy were created. 
-    Throught the years they created more characters, and oepned more stores around Asia.
-</p>
-    
-<p>
-    1980-2000
-    They were listed top 3 in the Tokyo Stock Exchange, they then relocated their head office in Osaki, Shinagawa, Tokyo, and had their stores located worldwide.
-    Then laster they opened their theme park "Harmonyland". Afterwards more characters were created like Cinnamoroll and Sugarbunnies
-</p>
+    <main>
+        <h1 class="logos">Logo throught the years.</h1>
 
 
+        <div class="slider-container">
+            <div class="slider-track">
+                <div class="slide-item"><img src="img/1960.png" alt="logo in 1960">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/19602.png" alt="logo in 1960">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/1973.png" alt="logo in 1970">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/1974.png" alt="logo in 1980">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/nows.png" alt="logo now">
+                    <p>1960</p>
+                </div>
+                <!-- duplicated items for infinite loop -->
+                <div class="slide-item"><img src="img/1960.png" alt="logo in 1960">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/19602.png" alt="logo in 1960">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/1973.png" alt="logo in 1970">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/1974.png" alt="logo in 1980">
+                    <p>1960</p>
+                </div>
+                <div class="slide-item"> <img src="img/nows.png" alt="logo now">
+                    <p>1960</p>
+                </div>
+            </div>
+        </div>
 
 
+   
+        <h1 class="historytittle">The Creation of the Sanrio Company</h1>
 
+        <section class="timeline1">
+            <div class="timeline">
+                <div class="container left" data-aos="fade-right">
+                    <div class="content">
+                        <h2>1960 - 1970</h2>
+                        <p>Yamanashi Silk Center Co. was established in Tokyo with the aim of establishing a social
+                            communication buisness.
+                            Launched their first gift product "Strawberry". then published the poetry collection "Loving
+                            Songs".
+                            Afterwards
+                            they established the Sanrio Greeting Co.</p>
+                    </div>
+                </div>
+                <div class="container right" data-aos="fade-left">
+                    <div class="content">
+                        <h2>1970 - 1980</h2>
+                        <p>First store was opened in Shinjuku, Tokyo. Then 2 years later the name changed to
+                            Sanrio Company.
+                            The first characters Hello Kity, Patty and Jimmy were created.
+                            Throught the years they created more characters, and opened more stores around Asia.</p>
+                    </div>
+                </div>
 
+                <div class="container left" data-aos="fade-right">
+                    <div class="content">
+                        <h2>1980 - 2010</h2>
+                        <p>They were listed top 3 in the Tokyo Stock Exchange, they then relocated their head office in
+                            Osaki, Shinagawa,
+                            Tokyo, and had their stores located worldwide.
+                            Then later they opened their theme park "Harmonyland". Afterwards more characters were
+                            created
+                            like Cinnamoroll and Sugarbunnies</p>
+                    </div>
+                </div>
 
+                <div class="container right" data-aos="fade-left">
+                    <div class="content">
+                        <h2>2010 - 2022</h2>
+                        <p>More stores and theme parks were opened worldwide, having a big impact in Asia. Created shows
+                            and
+                            movies which was a big hit, and created around 15
+                            new characters. Around the 2000's Tomokuni Tsuji was appointed as the President and CEO of
+                            Sanrio. Then Sintaro Tsuji was appointed as the Founder and Chairman of Sanrio.
+                            They then formed a capital alliance with YARUKI Switch Group Holdings Inc.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container_center">
+                    <div class="content">
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
 </body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+</html>

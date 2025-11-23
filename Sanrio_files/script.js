@@ -1,5 +1,3 @@
-// keep menu on the top
-
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('nav');
 
@@ -13,12 +11,9 @@ window.addEventListener('scroll', function() {
 const menuToggle = document.getElementById('mobile-menu');
 const navList = document.getElementById('nav-list');
 
-
-// show up menu mobile
 menuToggle.addEventListener('click', () => {
     navList.classList.toggle('active');
 });
-
 
 
 function openPopup(id) {

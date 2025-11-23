@@ -1,126 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanrio</title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" type="text/css" href="Style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Momo+Trust+Display&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Rubik+Bubbles&display=swap" rel="stylesheet">
 
-    <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 
-<body>
 
-  <nav>
-        <ul class="myfont2">
-            <li class="myfont"> Sanrio</li>
-            <li> <a href="index.html"> HOME </a></li>
-            <li> <a href="History.html"> HISTORY</a></li>
-            <li> <a href="Show.html"> SHOW</a></li>
-            <li> <a href="Blog.html">BLOG</a></li>
-            <li class="darkmode" onclick="darkmode()"> Dark Mode</li>
+<body class="show">
+
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- my own scripts -->
+    <script src="script.js" defer></script>
+
+<nav>
+    <div class="nav-container">
+        <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+        <ul class="myfont2" id="nav-list">
+            <li> <div class="logo myfont">Sanrio</div></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="History.html">HISTORY</a></li>
+            <li><a href="Show.html">SHOW</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li class="darkmode" onclick="darkmode()">Dark Mode</li>
         </ul>
-    </nav>
-
-    <ul class="videos">
-        <!-- S1 EP1 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP1</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pRJ-Dai3oB0?si=ivz-jBZjUUYVZGu7" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
-
-        <!-- S1 EP2 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP2</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YyX0uKap7oc?si=9jHiYc9VCufCK3mN" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
-
-        <!-- S1 EP3 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP3</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/NtR8jDK0Z2g?si=vlJolSPkYwJ8RWyi" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
-
-        <!-- <S1 Ep4 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP4</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/q0JcAC9UREY?si=TxvW8OwQLYJbtl7f" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
+    </div>
+</nav>
 
 
-        <!-- S1 EP5 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP5</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZDiMmRcxYZs?si=R525V5MX0z5geNmU" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
+    <header class="subpages">
+        <h1>SHOW  A BRIEF OF MAIN VIDEOS....</h1>
+    </header>
+    <main>
 
-        <!-- S1 EP6 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP6</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3D2StJ0k-6g?si=J53jLxiLFuFdiOhK" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
+        <div class="carousel">
 
-        <!-- S1 EP7 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP7</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qgglu7eu7Ho?si=fBoUt4fmOjUbnUza" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
-
-        <!-- S1 EP8 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP8</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dVe38FT6AlM?si=pFCnFrgPbcIPgSvw" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
-
-        <!-- S1 EP9 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP9</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WlCdDCLet9w?si=A0JhwAVljRR-1Rya" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
+            <!-- Radio buttons -->
+            <input type="radio" name="slides" id="slide1" checked>
+            <input type="radio" name="slides" id="slide2">
+            <input type="radio" name="slides" id="slide3">
+            <input type="radio" name="slides" id="slide4">
+            <input type="radio" name="slides" id="slide5">
+            <input type="radio" name="slides" id="slide6">
+            <input type="radio" name="slides" id="slide7">
+            <input type="radio" name="slides" id="slide8">
+            <input type="radio" name="slides" id="slide9">
+            <input type="radio" name="slides" id="slide10">
 
 
-        <!-- S1 EP10 -->
-        <li>
-            <p><strong> Hello Kitty and Friends S1 EP10</strong></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nFGMiKW4E3A?si=DNYP3R8WWi4yryqP" alt="Hello Kitty and Friends Show"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </li>
+            <div class="slides">
 
+                <div class="slide s1">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP1</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/pRJ-Dai3oB0?si=ivz-jBZjUUYVZGu7"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- S1 EP2 -->
+                <div class="slide s2">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP2</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/YyX0uKap7oc?si=9jHiYc9VCufCK3mN"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- S1 EP3 -->
+                <div class="slide s3">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP3</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/NtR8jDK0Z2g?si=vlJolSPkYwJ8RWyi"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- <S1 Ep4 -->
+                <div class="slide s4">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP4</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/q0JcAC9UREY?si=TxvW8OwQLYJbtl7f"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+                <!-- S1 EP5 -->
+                <div class="slide s5">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP5</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/ZDiMmRcxYZs?si=R525V5MX0z5geNmU"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- S1 EP6 -->
+                <div class="slide s6">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP6</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/3D2StJ0k-6g?si=J53jLxiLFuFdiOhK"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- S1 EP7 -->
+                <div class="slide s7">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP7</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/qgglu7eu7Ho?si=fBoUt4fmOjUbnUza"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- S1 EP8 -->
+                <div class="slide s8">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP8</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/dVe38FT6AlM?si=pFCnFrgPbcIPgSvw"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </li>
+                    </div>
+                </div>
+                <!-- S1 EP9 -->
+                <div class="slide s9">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP9</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/WlCdDCLet9w?si=A0JhwAVljRR-1Rya"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+                <!-- S1 EP10 -->
+                <div class="slide s10">
+                    <div>
+                        <p><strong> Hello Kitty and Friends S1 EP10</strong></p>
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/nFGMiKW4E3A?si=DNYP3R8WWi4yryqP"
+                            alt="Hello Kitty and Friends Show" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <!-- Navigation dots -->
+            <div class="dots">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+                <label for="slide6"></label>
+                <label for="slide7"></label>
+                <label for="slide8"></label>
+                <label for="slide9"></label>
+                <label for="slide10"></label>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
 </body>
+
+</html>
