@@ -822,6 +822,7 @@ iframe {
   border: 5px solid black;
   border-radius: 10px 10px 10px 10px;
   transition: opacity 0.4s ease;
+  
 }
 
 .karatevid{
@@ -892,6 +893,19 @@ iframe {
 .tup{
   text-align: center;
 }
+
+.karate img:hover{
+background-color: #7cbbe1;
+}
+
+.choir img:hover{
+  background-color:#7cbbe1;
+}
+
+.hiking img:hover{
+  background-color: #73bbe1;
+}
+
 /* -------------------------------------------------- Blog page -------------------------------------------------------- */
 
 
