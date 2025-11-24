@@ -748,7 +748,7 @@ iframe {
   margin-right: 10px;
   text-align: center;
   line-height: 100px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -815,6 +815,83 @@ iframe {
   /* border: 2px solid black; */
 }
 
+.karate img{
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+  border: 5px solid black;
+  border-radius: 10px 10px 10px 10px;
+  transition: opacity 0.4s ease;
+}
+
+.karatevid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 103px;
+  grid-row-gap: 60px;
+   margin: 0% 10% ;
+}
+
+.choir img{
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+  border: 5px solid black;
+  border-radius: 10px 10px 10px 10px;
+  transition: opacity 0.4s ease;
+}
+
+
+.choirvid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 103px;
+  grid-row-gap: 60px;
+   margin: 0% 10% ;
+}
+
+.hiking img{
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+  border: 5px solid black;
+  border-radius: 10px 10px 10px 10px;
+  transition: opacity 0.4s ease;
+}
+
+.hikingvid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 103px;
+  grid-row-gap: 60px;
+   margin: 0% 10% ;
+}
+
+.popup-boxe {
+    justify-content: space-between;
+    gap: 30px;
+    width: 944px;
+    height: 350px;
+    margin: 15% auto;
+    padding: 30px 40px;
+    /* display: flex; */
+    transition: transform 0.5s ease;
+    background: white;
+    border-radius: 45px;
+}
+
+.blogtittle{
+  text-align: center;
+  margin: 48px 0px 54px 2px;
+}
+
+.cent{
+  text-align: center;
+}
+
+.tup{
+  text-align: center;
+}
 /* -------------------------------------------------- Blog page -------------------------------------------------------- */
 
 

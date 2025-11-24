@@ -4,7 +4,7 @@
 
 
 <head>
-      <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanrio</title>
 
@@ -26,33 +26,35 @@
 <body>
     <!-- my own scripts -->
     <script src="script.js" defer></script>
-<nav>
-    <div class="nav-container">
-        <div class="menu-toggle" id="mobile-menu">&#9776;</div>
-        <ul class="myfont2" id="nav-list">
-            <li> <div class="logo myfont">Sanrio</div></li>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="History.html">HISTORY</a></li>
-            <li><a href="Show.html">SHOWS</a></li>
-            <li><a href="Blog.html">BLOG</a></li>
-            <li class="darkmode" onclick="darkmode()">Dark Mode</li>
-        </ul>
-    </div>
-</nav>
+    <nav>
+        <div class="nav-container">
+            <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+            <ul class="myfont2" id="nav-list">
+                <li>
+                    <div class="logo myfont">Sanrio</div>
+                </li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="History.html">HISTORY</a></li>
+                <li><a href="Show.html">SHOWS</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li class="darkmode" onclick="darkmode()">Dark Mode</li>
+            </ul>
+        </div>
+    </nav>
 
 
-  <header class="subpages">
+    <header class="subpages">
         <h1>ABOUT ME...</h1>
-     </header>
+    </header>
     <main>
         <div class="containerme">
             <div class="PochaTopImage">
-              
 
-                    <img class="me" src="img/soffia.png" alt="Soffia Quevedo"> <br>
 
-                    <h3> Soffia Quevedo</h3>
-                
+                <img class="me" src="img/soffia.png" alt="Soffia Quevedo"> <br>
+
+                <h3> Soffia Quevedo</h3>
+
             </div>
 
             <div>
@@ -75,30 +77,28 @@
             </div>
 
         </div>
-   
+
 
 
 
         <h2>
             <p class="top3" style="font-family:fantasy;">My Tops 3 Animated Characters</p>
         </h2>
-        <ol>
-            <li>Pochacco</li>
-            <li> Snoopy </li>
-            <li> Mulan </li>
-        </ol>
-
 
         <section class="myfave">
+
             <div class="chaco">
+                <h2 class="tup"> Pochacco </h2>
                 <img src="img/poch.gif">
             </div>
 
             <div class="snoppy">
+                <h2 class="tup"> Snoopy </h2>
                 <img src="img/snoopy.gif">
             </div>
 
             <div class="mulan">
+                <h2 class="tup"> Mulan </h2>
                 <img src="img/mulan.webp">
             </div>
 
@@ -106,6 +106,100 @@
         </section>
 
     </main>
+
+    <h1 class="blogtittle"> Activities </h1>
+
+    <section class="karatevid">
+
+        <div class="karate" onclick="openPopup('karatepopup')">
+            <img src="img/karategirl.png" alt="Karate" id="Karate">
+            <div class="characterpopup"> </div>
+        </div>
+
+        <div class="choir" onclick="openPopup('choirpopup')">
+            <img src="img/girlsinging.png" alt="choir" id="choir">
+            <div class="characterpopup"> </div>
+        </div>
+
+        <div class="hiking" onclick="openPopup('hikingpopup')">
+            <img src="img/girlhiking.png" alt="hiking" id="hiking">
+            <div class="characterpopup"> </div>
+        </div>
+
+    </section>
+
+
+    <section class="characterpopup">
+
+        <div id="karatepopup" class="popup-overlay">
+            <div class="popup-boxe">
+                <span onclick="closePopup('karatepopup')" class="close" id="closekarate">&times;</span>
+                <div id="descriptione">
+                    <div class="popup-text">
+                        <h2 class="cent">Karate</h2>
+                    </div>
+                    <div class="karatevid">
+                        <video width="320" height="240" controls>
+                            <source src="img/karate.mp4" type="video/mp4">
+
+                        </video>
+                        <video width="320" height="240" controls>
+
+                            <source src="img/karate2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="choirpopup" class="popup-overlay">
+            <div class="popup-boxe">
+                <span onclick="closePopup('choirpopup')" class="close" id="closechoir">&times;</span>
+                <div id="descriptione">
+                    <div class="popup-text">
+                        <h2 class="cent">Choir</h2>
+                    </div>
+                    <div class="choirvid">
+                        <video width="320" height="240" controls>
+                            <source src="img/choir.mp4" type="video/mp4">
+
+                        </video>
+                        <video width="320" height="240" controls>
+
+                            <source src="img/karate2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hikingpopup" class="popup-overlay">
+            <div class="popup-boxe">
+                <span onclick="closePopup('hikingpopup')" class="close" id="closehiking">&times;</span>
+                <div id="descriptione">
+                    <div class="popup-text">
+                        <h2 class="cent">Hiking</h2>
+                    </div>
+                    <div class="hikingvid">
+                        <video width="320" height="240" controls>
+                            <source src="img/hiking.mp4" type="video/mp4">
+
+                        </video>
+                        <video width="320" height="240" controls>
+
+                            <source src="img/hiking2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
     <footer>
         <p>&copy; 2025 My Website</p>
     </footer>
