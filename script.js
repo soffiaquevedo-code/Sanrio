@@ -79,3 +79,17 @@ function creatorss() {
 //   });
 
 
+
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll('.container.right');
+
+  elements.forEach(el => {
+    if (window.innerWidth <= 768) {      // mobile size
+      el.setAttribute("data-aos", "fade-right");
+    } else {
+      el.setAttribute("data-aos", "fade-left");
+    }
+  });
+
+  AOS.refresh();
+});

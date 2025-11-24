@@ -988,7 +988,14 @@ footer {
     /* show menu when active */
   }
 
+  .karatevid {
+    grid-template-columns: repeat(1, 1fr);
+ 
+}
 
+.top3{
+  font-size: 18px !important;
+}
 }
 
 
