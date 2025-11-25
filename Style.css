@@ -877,18 +877,9 @@ iframe {
   text-align: center;
 }
 
-.karate img:hover{
-background-color: #7cbbe1;
-}
-
-.choir img:hover{
+.karate img:hover, .choir img:hover, .hikinh img:hover{
   background-color:#7cbbe1;
 }
-
-.hiking img:hover{
-  background-color: #73bbe1;
-}
-
 
 /* -------------------------------------------------- Blog page -------------------------------------------------------- */
 
