@@ -376,6 +376,9 @@ body.dark,
 .dark .slide-item img {
   background: white;
 }
+.dark .karate img, .dark .hiking img, .dark .choir img{
+  border: 5px solid rgb(255, 255, 255);
+}
 
 /* -------------------------------------------------- End Dark Mode Page -------------------------------------------------- */
 
@@ -815,7 +818,7 @@ iframe {
   /* border: 2px solid black; */
 }
 
-.karate img{
+.karate img, .hiking img, .choir img{
   width: 350px;
   height: auto;
   object-fit: contain;
@@ -825,7 +828,7 @@ iframe {
   
 }
 
-.karatevid{
+.karatevid, .choirvid, .hikingvid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 103px;
@@ -833,40 +836,20 @@ iframe {
    margin: 0% 10% ;
 }
 
-.choir img{
-  width: 350px;
-  height: auto;
-  object-fit: contain;
-  border: 5px solid black;
-  border-radius: 10px 10px 10px 10px;
-  transition: opacity 0.4s ease;
-}
 
-
-.choirvid{
+.hikingvod{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 103px;
   grid-row-gap: 60px;
    margin: 0% 10% ;
 }
 
-.hiking img{
-  width: 350px;
-  height: auto;
-  object-fit: contain;
-  border: 5px solid black;
-  border-radius: 10px 10px 10px 10px;
-  transition: opacity 0.4s ease;
+.hiking, .choir, .karate{
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.hikingvid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 103px;
-  grid-row-gap: 60px;
-   margin: 0% 10% ;
-}
 
 .popup-boxe {
     justify-content: space-between;
@@ -905,6 +888,7 @@ background-color: #7cbbe1;
 .hiking img:hover{
   background-color: #73bbe1;
 }
+
 
 /* -------------------------------------------------- Blog page -------------------------------------------------------- */
 
